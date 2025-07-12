@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schema.tauri.app/config/2.0.0-rc",
+  "productName": "tauri-grok",
+  "version": "0.1.0",
+  "identifier": "com.litongjava.tauri.grok",
+  "build": {
+    "frontendDist": "dist",
+    "devUrl": "https://grok.com/"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Tauri grok",
+        "fullscreen": false,
+        "resizable": true,
+        "height": 1000,
+        "width": 1500,
+        "url": "https://grok.com/",
+        "x": 100,
+        "y": 0
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}
